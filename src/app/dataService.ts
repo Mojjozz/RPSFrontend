@@ -16,7 +16,7 @@ createG(postD: postData){
 }
 
 joinG(postD: postData){
-    return this.httpClient.post(this.ROOT_URL+ 'api/games/join',postD)
+    return this.httpClient.post(this.ROOT_URL+ '/api/games/'+ postD.id+'/join',postD)
 }
 
 }
