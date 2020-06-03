@@ -23,4 +23,8 @@ makeM(postD: postData){
     return this.httpClient.post(this.ROOT_URL+ '/api/games/' + postD.id+'/move' ,postD)
 }
 
+checkG(postD: postData){
+    return this.httpClient.get(this.ROOT_URL+'/api/games/'+ postD.id)
+}
+
 }

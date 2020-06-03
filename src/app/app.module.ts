@@ -10,6 +10,7 @@ import { CreateGameComponent } from './create-game/create-game.component';
 import { dataService } from './dataService';
 import { JoinGameComponent } from './join-game/join-game.component';
 import { MakeMoveComponent } from './make-move/make-move.component';
+import { CheckGameComponent } from './check-game/check-game.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MakeMoveComponent } from './make-move/make-move.component';
     HomeComponent,
     CreateGameComponent,
     JoinGameComponent,
-    MakeMoveComponent
+    MakeMoveComponent,
+    CheckGameComponent
   ],
   imports: [
     BrowserModule,

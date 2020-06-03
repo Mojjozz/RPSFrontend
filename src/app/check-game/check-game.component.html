@@ -1,0 +1,8 @@
+<h2> {{ title }} </h2>
+<label> Id: </label>
+<input #id>
+<button (click)="checkG(id.value)">check game</button>
+
+<div *ngIf="resultData">
+    <h3>gamestatus is: {{ resultData.gameMessage }}</h3>
+</div>
