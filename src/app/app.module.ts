@@ -9,13 +9,15 @@ import { HomeComponent } from './home/home.component';
 import { CreateGameComponent } from './create-game/create-game.component';
 import { dataService } from './dataService';
 import { JoinGameComponent } from './join-game/join-game.component';
+import { MakeMoveComponent } from './make-move/make-move.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CreateGameComponent,
-    JoinGameComponent
+    JoinGameComponent,
+    MakeMoveComponent
   ],
   imports: [
     BrowserModule,
